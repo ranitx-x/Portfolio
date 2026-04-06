@@ -46,32 +46,32 @@ const WorkPage = () => {
 
 const projects = [
   {
-    title: "Conversational RAG Engine",
-    slug: "conversational-rag-engine",
+    title: "ShareChat / Moj Series : Retention issues in Microdramas",
+    slug: "retention-issues-in-microdramas",
     description: "Built a retrieval-augmented generation system that reduced support ticket volume by 38% through intelligent document understanding.",
     tags: ["RAG-AI", "NLP", "Python"],
     metric: "-38% Tickets",
   },
   {
-    title: "Growth Experimentation Platform",
-    slug: "growth-experimentation-platform",
+    title: "2036 Olympics in Ahmedabad: The Right Choice? ",
+    slug: "2036-olympics-in-ahmedabad",
     description: "Designed and shipped an internal A/B testing framework used across 12 product teams to validate hypotheses in under 48 hours.",
     tags: ["Growth", "Platform", "React"],
     metric: "+22% Conversion",
   },
   {
-    title: "Data Pipeline Orchestrator",
-    slug: "data-pipeline-orchestrator",
-    description: "Architected a real-time event processing system handling 2M+ daily events with sub-second latency for personalized recommendations.",
+    title: "East Africa's Financial Inclusion Gap",
+    slug: "east-africa-financial-inclusion-gap",
+    description: "Led the development of a data pipeline orchestrator that processed over 2 million events per day, enabling real-time analytics and insights for financial inclusion initiatives.",
     tags: ["Data", "Infra", "Kafka"],
     metric: "2M+ Events/day",
   },
   {
-    title: "User Onboarding Redesign",
-    slug: "user-onboarding-redesign",
-    description: "Led cross-functional redesign of the activation flow, increasing Day-7 retention from 31% to 47% through contextual nudges and progressive disclosure.",
-    tags: ["UX", "Retention", "Mobile"],
-    metric: "+52% Retention",
+    title: "Delhivery : AI based Operational Core to Improve On-Time Deliveries",
+    slug: "delhivery-ai-operational-core",
+    description: "Led the development of an AI-powered operational core to optimize delivery routes and improve on-time delivery rates.",
+    tags: ["AI", "Operations", "Python"],
+    metric: "+15% On-Time Deliveries",
   },
 ];
 
