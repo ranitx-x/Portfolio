@@ -5,22 +5,21 @@ import ParticleBackground from "@/components/ParticleBackground";
 const deckData: Record<string, { title: string; pdfUrl: string | null }> = {
   "retention-issues-in-microdramas": {
     title: "ShareChat / Moj Series : Retention issues in Microdramas",
-    pdfUrl: "https://drive.google.com/file/d/1WSU3gm4XNq3DGUkwn8Qr_KtCbrCzmfHN/view?usp=sharing",
+    pdfUrl: "https://drive.google.com/file/d/1WSU3gm4XNq3DGUkwn8Qr_KtCbrCzmfHN/preview",
   },
   "2036-olympics-in-ahmedabad": {
     title: "2036 Olympics in Ahmedabad: The Right Choice? ",
-    pdfUrl: "https://drive.google.com/file/d/1pU2HVZBTEPiY-FCM7tS6fpo3g5nDlg_C/view?usp=sharing",
+    pdfUrl: "https://drive.google.com/file/d/1pU2HVZBTEPiY-FCM7tS6fpo3g5nDlg_C/preview",
   },
   "east-africa-financial-inclusion-gap": {
     title: "East Africa's Financial Inclusion Gap",
-    pdfUrl: "https://drive.google.com/file/d/1Ya8U3uQXMJJM9Z_4dp6XVX5p_F3dHuJZ/view?usp=sharing",
+    pdfUrl: "https://drive.google.com/file/d/1Ya8U3uQXMJJM9Z_4dp6XVX5p_F3dHuJZ/preview",
   },
   "delhivery-ai-operational-core": {
     title: "Delhivery : AI based Operational Core to Improve On-Time Deliveries",
-    pdfUrl: "https://drive.google.com/file/d/1gzLpRf-ZhEm_2UF03Dfh0LMEgY1LixoF/view?usp=sharing",
+    pdfUrl: "https://drive.google.com/file/d/1gzLpRf-ZhEm_2UF03Dfh0LMEgY1LixoF/preview",
   },
 };
-
 const DeckViewer = () => {
   const { slug } = useParams<{ slug: string }>();
   const deck = slug ? deckData[slug] : null;
@@ -51,7 +50,7 @@ const DeckViewer = () => {
         >
           <div>
             <Link
-              to="/#work"
+              to="/work"
               className="font-mono text-xs text-muted-foreground hover:text-foreground transition-colors"
             >
               ← Back
