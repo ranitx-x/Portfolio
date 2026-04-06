@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 0%;
+    --foreground: 0 0% 96%;
+
+    --card: 0 0% 4%;
+    --card-foreground: 0 0% 96%;
+
+    --popover: 0 0% 4%;
+    --popover-foreground: 0 0% 96%;
+
+    --primary: 0 0% 100%;
+    --primary-foreground: 0 0% 0%;
+
+    --secondary: 0 0% 8%;
+    --secondary-foreground: 0 0% 70%;
+
+    --muted: 0 0% 10%;
+    --muted-foreground: 0 0% 50%;
+
+    --accent: 0 0% 14%;
+    --accent-foreground: 0 0% 96%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 14%;
+    --input: 0 0% 14%;
+    --ring: 0 0% 40%;
+
+    --radius: 0.5rem;
+
+    /* Portfolio-specific tokens */
+    --surface-elevated: 0 0% 4%;
+    --glow: 0 0% 100%;
+    --mono: 'JetBrains Mono', monospace;
+    --sans: 'Inter', system-ui, sans-serif;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--sans);
+    
+  }
+
+  ::selection {
+    background: hsl(0 0% 100% / 0.15);
+    color: hsl(0 0% 100%);
+  }
+}
+
+@layer components {
+  .font-mono {
+    font-family: var(--mono);
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .glow-border {
+    border: 1px solid hsl(var(--border));
+    transition: border-color 0.4s ease-out, box-shadow 0.4s ease-out;
+  }
+
+  .glow-border:hover {
+    border-color: hsl(0 0% 30%);
+    box-shadow: 0 0 20px hsl(0 0% 100% / 0.04), 0 0 40px hsl(0 0% 100% / 0.02);
+  }
+
+  .magnetic-hover {
+    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .magnetic-hover:active {
+    transform: scale(0.97);
+  }
+}
+
+@layer utilities {
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
