@@ -52,7 +52,7 @@ const AboutPage = () => {
               transition={{ duration: 0.6, delay: 0.25, ease: [0.16, 1, 0.3, 1] }}
               className="text-base md:text-lg text-foreground/80 leading-[1.8] max-w-prose"
             >
-              I am a 15x National Case Competition winner, with projects spanning Sustainability, ESG, and Product UI. These experiences have strengthened my ability to break down ambiguity, identify high impact opportunities, and translate ideas into actionable solutions. I have worked as a Technical Associate Product Manager Intern at Languify AI, an edtech firm, where I collaborated directly with clients and translated their needs into product decisions.
+              I am a 15x National Case Competition winner, with projects spanning Sustainability, ESG, and Product UI. These experiences have strengthened my ability to break down ambiguity, identify high impact opportunities, and translate ideas into actionable solutions. I have worked as a Product Manager Intern at HELLO PM, an edtech firm, where I collaborated directly with clients and translated their needs into product decisions.
               </motion.p>
 
             <motion.p
@@ -61,7 +61,7 @@ const AboutPage = () => {
               transition={{ duration: 0.6, delay: 0.35, ease: [0.16, 1, 0.3, 1] }}
               className="text-base md:text-lg text-foreground/80 leading-[1.8] max-w-prose"
             >
-               Additionally, as a Strategic Relations Associate at E Cell IIT BHU, I have worked closely with student startups, helping them connect with VC panels and angel investors while supporting them with strategic guidance. I bring a user first mindset and a bias for action, focusing on building products that create real and measurable impact.
+              I am passionate about building products that start with users and scale with impact. I believe the best solutions emerge when you combine rigorous analysis with deep empathy for the people using them. Every project I work on is tied to a metric that matters, and I care deeply about velocity, clarity, and outcomes.
               </motion.p>
 
             <motion.div
