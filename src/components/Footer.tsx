@@ -10,9 +10,9 @@ const Footer = () => {
         </div>
         <div className="flex items-center gap-6">
           {[
-            { label: "LinkedIn", href: "https://www.linkedin.com/in/ranit-mondal-881701373?utm_source=share_via&utm_content=profile&utm_medium=member_android" },
-            { label: "GitHub", href: "https://github.com/ranitx-x" },
-            { label: "Resume", href: "https://drive.google.com/file/d/1bN6zyl45jqBuNhqfpRknNf7KdJP6Llpd/view" },
+            { label: "LinkedIn", href: "https://www.linkedin.com/in/pushpanjali-patel-b90586322/" },
+            { label: "GitHub", href: "https://github.com/pushpanjalipatel" },
+            { label: "Resume", href: "https://drive.google.com/file/d/14sCuAeNcY_t1Rw0cM7fIffW6BkApEg6q/view?usp=sharing" },
           ].map((link) => (
             <a
               key={link.label}

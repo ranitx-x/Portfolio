@@ -43,7 +43,7 @@ const AboutPage = () => {
               transition={{ duration: 0.6, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
               className="text-base md:text-lg text-foreground/80 leading-[1.8] max-w-prose"
             >
-              Hey, this is Ranit Mondal from Indian Institute of Technology (BHU) Varanasi with a strong focus on turning complex, ambiguous problems into structured, scalable solutions. Coming from a technical background and complementing it with experience in strategy and consulting case competitions, I have developed the ability to operate at the intersection of product thinking and product building. I approach problems by combining analytical rigor with deep user empathy, ensuring that solutions are both meaningful and scalable.
+              Hey, this is Pushpanjali Patel from Indian Institute of Technology (BHU) Varanasi with a strong focus on turning complex, ambiguous problems into structured, scalable solutions. Coming from a technical background and complementing it with experience in strategy and consulting case competitions, I have developed the ability to operate at the intersection of product thinking and product building. I approach problems by combining analytical rigor with deep user empathy, ensuring that solutions are both meaningful and scalable.
             </motion.p>
 
             <motion.p
