@@ -20,9 +20,9 @@ const Hero = () => {
         className="text-balance text-center font-sans font-800 leading-[0.92] tracking-[-0.04em] text-foreground"
         style={{ fontSize: "clamp(2.5rem, 8vw, 7rem)", fontWeight: 800 }}
       >
-        I turn ambiguity
+        We grow through
         <br />
-        into architecture.
+        what we go through
       </motion.h1>
 
       <motion.div
